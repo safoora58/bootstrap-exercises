@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>bootstrap</title>
+
+</head>
+
+<body>
+
+  <h1> components </h1>
+  <h2> buttons </h2>
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-secondary">Secondary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-light">Light</button>
+  <button type="button" class="btn btn-dark">Dark</button>
+  <button type="button" class="btn btn-link">Link</button>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2> button tags </h2>
+  <a class="btn btn-primary" href="#" role="button">Link</a>
+  <button class="btn btn-primary" type="submit">Button</button>
+  <input class="btn btn-primary" type="button" value="Input">
+  <input class="btn btn-primary" type="submit" value="Submit">
+  <input class="btn btn-primary" type="reset" value="Reset">
+  <br>
+  <br>
+  <br>
+
+
+  <h2>outline buttons </h2>
+  <button type="button" class="btn btn-outline-primary">Primary</button>
+  <button type="button" class="btn btn-outline-secondary">Secondary</button>
+  <button type="button" class="btn btn-outline-success">Success</button>
+  <button type="button" class="btn btn-outline-danger">Danger</button>
+  <button type="button" class="btn btn-outline-warning">Warning</button>
+  <button type="button" class="btn btn-outline-info">Info</button>
+  <button type="button" class="btn btn-outline-light">Light</button>
+  <button type="button" class="btn btn-outline-dark">Dark</button>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2>bigger buttons </h2>
+  <button type="button" class="btn btn-danger btn-lg">Large button</button>
+  <button type="button" class="btn btn-warning btn-lg">Large button</button>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2> smaller t </h2>
+  <button type="button" class="btn btn-danger btn-sm">Small button</button>
+  <button type="button" class="btn btn-warning btn-sm">Small button</button>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> smaller smaller buttons </h2>
+  <button type="button" class="btn btn-success"
+    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+    Custom button
+  </button>
+  <br>
+  <br>
+  <br>
+
+
+  <h2>Disabled state </h2>
+  <button type="button" class="btn btn-primary" disabled>Primary button</button>
+  <button type="button" class="btn btn-secondary" disabled>Button</button>
+  <button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
+  <button type="button" class="btn btn-outline-secondary" disabled>Button</button>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> Disabled state for <a> </h2>
+  <a class="btn btn-primary disabled" role="button" aria-disabled="true">Primary link</a>
+  <a class="btn btn-secondary disabled" role="button" aria-disabled="true">Link</a>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2> block buttons </h2>
+  <div class="d-grid gap-2">
+    <button class="btn btn-success" type="button">Button</button>
+    <button class="btn btn-success" type="button">Button</button>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> responsive block buttons </h2>
+  <div class="d-grid gap-2 d-md-block">
+    <button class="btn btn-info" type="button">Button</button>
+    <button class="btn btn-info" type="button">Button</button>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+
+
+  <h2>block buttons-col </h2>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-primary" type="button">Button</button>
+    <button class="btn btn-primary" type="button">Button</button>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> flex buttons </h2>
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <button class="btn btn-warning me-md-2" type="button">Button</button>
+    <button class="btn btn-info" type="button">Button</button>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <h2> Toggle states </h2>
+  <button type="button" class="btn btn-primary" data-bs-toggle="button">Toggle button</button>
+  <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle
+    button</button>
+  <button type="button" class="btn btn-primary" disabled data-bs-toggle="button">Disabled toggle button</button>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> Toggle states links </h2>
+  <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">Toggle link</a>
+  <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle
+    link</a>
+  <a class="btn btn-primary disabled" aria-disabled="true" role="button" data-bs-toggle="button">Disabled toggle
+    link</a>
+  <br>
+  <br>
+  <br>
+
+
+  <h1>button group</h1>
+  <h2> basic </h2>
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-warning">Left</button>
+    <button type="button" class="btn btn-secondary">Middle</button>
+    <button type="button" class="btn btn-success">Right</button>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> active </h2>
+  <div class="btn-group">
+    <a href="#" class="btn btn-primary active" aria-current="page">Active link</a>
+    <a href="#" class="btn btn-primary">Link</a>
+    <a href="#" class="btn btn-primary">Link</a>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <h2> outlined styles </h2>
+  <div class="btn-group" role="group" aria-label="Basic outlined example">
+    <button type="button" class="btn btn-outline-primary">Left</button>
+    <button type="button" class="btn btn-outline-primary">Middle</button>
+    <button type="button" class="btn btn-outline-primary">Right</button>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> Checkbox button groups </h2>
+  <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+
+    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+
+    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> radio button groups </h2>
+  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+    <label class="btn btn-outline-warning" for="btnradio1">Radio 1</label>
+
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+    <label class="btn btn-outline-success" for="btnradio2">Radio 2</label>
+
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+    <label class="btn btn-outline-dark" for="btnradio3">Radio 3</label>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2>Button toolbar </h2>
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group me-2" role="group" aria-label="First group">
+      <button type="button" class="btn btn-primary">1</button>
+      <button type="button" class="btn btn-primary">2</button>
+      <button type="button" class="btn btn-primary">3</button>
+      <button type="button" class="btn btn-primary">4</button>
+    </div>
+    <div class="btn-group me-2" role="group" aria-label="Second group">
+      <button type="button" class="btn btn-secondary">5</button>
+      <button type="button" class="btn btn-secondary">6</button>
+      <button type="button" class="btn btn-secondary">7</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Third group">
+      <button type="button" class="btn btn-info">8</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> mix input groups with button groups in your toolbars </h2>
+  <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group me-2" role="group" aria-label="First group">
+      <button type="button" class="btn btn-outline-secondary">1</button>
+      <button type="button" class="btn btn-outline-secondary">2</button>
+      <button type="button" class="btn btn-outline-secondary">3</button>
+      <button type="button" class="btn btn-outline-secondary">4</button>
+    </div>
+    <div class="input-group">
+      <div class="input-group-text" id="btnGroupAddon">@</div>
+      <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example"
+        aria-describedby="btnGroupAddon">
+    </div>
+  </div>
+
+  <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group" role="group" aria-label="First group">
+      <button type="button" class="btn btn-outline-secondary">1</button>
+      <button type="button" class="btn btn-outline-secondary">2</button>
+      <button type="button" class="btn btn-outline-secondary">3</button>
+      <button type="button" class="btn btn-outline-secondary">4</button>
+    </div>
+    <div class="input-group">
+      <div class="input-group-text" id="btnGroupAddon2">@</div>
+      <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example"
+        aria-describedby="btnGroupAddon2">
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> sizing </h2>
+  <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+    <button type="button" class="btn btn-outline-dark">Left</button>
+    <button type="button" class="btn btn-outline-dark">Middle</button>
+    <button type="button" class="btn btn-outline-dark">Right</button>
+  </div>
+  <br>
+  <div class="btn-group" role="group" aria-label="Default button group">
+    <button type="button" class="btn btn-outline-dark">Left</button>
+    <button type="button" class="btn btn-outline-dark">Middle</button>
+    <button type="button" class="btn btn-outline-dark">Right</button>
+  </div>
+  <br>
+  <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+    <button type="button" class="btn btn-outline-dark">Left</button>
+    <button type="button" class="btn btn-outline-dark">Middle</button>
+    <button type="button" class="btn btn-outline-dark">Right</button>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2> nesting </h2>
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <button type="button" class="btn btn-primary">1</button>
+    <button type="button" class="btn btn-primary">2</button>
+
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <h2> vertical variation </h2>
+  <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+    <button type="button" class="btn btn-dark">Button</button>
+    <button type="button" class="btn btn-dark">Button</button>
+    <button type="button" class="btn btn-dark">Button</button>
+    <button type="button" class="btn btn-dark">Button</button>
+    <button type="button" class="btn btn-dark">Button</button>
+    <button type="button" class="btn btn-dark">Button</button>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> vertical variation-mix </h2>
+  <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+    <button type="button" class="btn btn-primary">Button</button>
+    <button type="button" class="btn btn-primary">Button</button>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+      </ul>
+    </div>
+    <button type="button" class="btn btn-primary">Button</button>
+    <button type="button" class="btn btn-primary">Button</button>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+      </ul>
+    </div>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+      </ul>
+    </div>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> vertical variation-radio </h2>
+  <div class="btn-group-vertical" role="group" aria-label="Vertical radio toggle button group">
+    <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
+    <label class="btn btn-outline-danger" for="vbtn-radio1">Radio 1</label>
+    <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off">
+    <label class="btn btn-outline-danger" for="vbtn-radio2">Radio 2</label>
+    <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio3" autocomplete="off">
+    <label class="btn btn-outline-danger" for="vbtn-radio3">Radio 3</label>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+
+
+  <h1> list group </h1>
+  <h2> basic </h2>
+  <ul class="list-group">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2> active items </h2>
+  <ul class="list-group">
+    <li class="list-group-item active" aria-current="true">An active item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> Disabled items </h2>
+  <ul class="list-group">
+    <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> Links and buttons </h2>
+  <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+      The current link item
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+    <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+    <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> list group flush </h2>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2> Numbered </h2>
+  <ol class="list-group list-group-numbered">
+    <li class="list-group-item">A list item</li>
+    <li class="list-group-item">A list item</li>
+    <li class="list-group-item">A list item</li>
+  </ol>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> horizontal </h2>
+  <ul class="list-group list-group-horizontal">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+  <ul class="list-group list-group-horizontal-sm">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+  <ul class="list-group list-group-horizontal-md">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+  <ul class="list-group list-group-horizontal-lg">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+  <ul class="list-group list-group-horizontal-xl">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+  <ul class="list-group list-group-horizontal-xxl">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+  <br>
+  <br>
+  <br>
+
+
+
+
+  <h2> contextual classes </h2>
+  <ul class="list-group">
+    <li class="list-group-item">A simple default list group item</li>
+  
+    <li class="list-group-item list-group-item-primary">A simple primary list group item</li>
+    <li class="list-group-item list-group-item-secondary">A simple secondary list group item</li>
+    <li class="list-group-item list-group-item-success">A simple success list group item</li>
+    <li class="list-group-item list-group-item-danger">A simple danger list group item</li>
+    <li class="list-group-item list-group-item-warning">A simple warning list group item</li>
+    <li class="list-group-item list-group-item-info">A simple info list group item</li>
+    <li class="list-group-item list-group-item-light">A simple light list group item</li>
+    <li class="list-group-item list-group-item-dark">A simple dark list group item</li>
+  </ul>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> contextual classes For links and buttons </h2>
+  <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action">A simple default list group item</a>
+  
+    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> with badge  </h2>
+  <ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      A list item
+      <span class="badge bg-primary rounded-pill">14</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      A second list item
+      <span class="badge bg-primary rounded-pill">2</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      A third list item
+      <span class="badge bg-primary rounded-pill">1</span>
+    </li>
+  </ul>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> Custom contente  </h2>
+  <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small>3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small>And some small print.</small>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small class="text-muted">And some muted small print.</small>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small class="text-muted">And some muted small print.</small>
+    </a>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> Checkboxes in list-group-item  </h2>
+  <ul class="list-group">
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+      <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+    </li>
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+      <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+    </li>
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+      <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+    </li>
+  </ul>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2> radios in list-group-item  </h2>
+  <ul class="list-group">
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+      <label class="form-check-label" for="firstRadio">First radio</label>
+    </li>
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+      <label class="form-check-label" for="secondRadio">Second radio</label>
+    </li>
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+      <label class="form-check-label" for="thirdRadio">Third radio</label>
+    </li>
+  </ul>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2> stretched-link checkbox  </h2>
+  <ul class="list-group">
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+      <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
+    </li>
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+      <label class="form-check-label stretched-link" for="secondCheckboxStretched">Second checkbox</label>
+    </li>
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
+      <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Third checkbox</label>
+    </li>
+  </ul>
+  <br>
+  <br>
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

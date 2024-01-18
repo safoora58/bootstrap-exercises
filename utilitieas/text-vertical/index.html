@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>bootstrap</title>
+
+</head>
+
+<body>
+
+
+  <h2> Text alignment </h2>
+  <p class="text-start">Start aligned text on all viewport sizes.</p>
+  <p class="text-center">Center aligned text on all viewport sizes.</p>
+  <p class="text-end">End aligned text on all viewport sizes.</p>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2> responsive Text alignment </h2>
+  <p class="text-sm-start">Start aligned text on viewports sized SM (small) or wider.</p>
+  <p class="text-md-start">Start aligned text on viewports sized MD (medium) or wider.</p>
+  <p class="text-lg-center">Start aligned text on viewports sized LG (large) or wider.</p>
+  <p class="text-xl-end">Start aligned text on viewports sized XL (extra-large) or wider.</p>
+  <br>
+  <br>
+  <br>
+
+
+  <h2>Text wrapping </h2>
+  <div class="badge bg-primary text-wrap">
+    This text should wrap.
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2>Text no-wrapping </h2>
+  <div class="text-nowrap bg-body-secondary border" style="width: 8rem;">
+    This text should overflow the parent.
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2>word break </h2>
+  <p class="text-break">
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  </p>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> text transform </h2>
+  <p class="text-lowercase">Lowercased text.</p>
+  <p class="text-uppercase">Uppercased text.</p>
+  <p class="text-capitalize">CapiTaliZed text.</p>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> font size </h2>
+  <p class="fs-1">.fs-1 text</p>
+  <p class="fs-2">.fs-2 text</p>
+  <p class="fs-3">.fs-3 text</p>
+  <p class="fs-4">.fs-4 text</p>
+  <p class="fs-5">.fs-5 text</p>
+  <p class="fs-6">.fs-6 text</p>
+  <br>
+  <br>
+  <br>
+
+
+  <h2>Font weight and italics </h2>
+  <p class="fw-bold">Bold text.</p>
+  <p class="fw-bolder">Bolder weight text (relative to the parent element).</p>
+  <p class="fw-semibold">Semibold weight text.</p>
+  <p class="fw-normal">Normal weight text.</p>
+  <p class="fw-light">Light weight text.</p>
+  <p class="fw-lighter">Lighter weight text (relative to the parent element).</p>
+  <p class="fst-italic">Italic text.</p>
+  <p class="fst-normal">Text with normal font style</p>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> line height </h2>
+  <p class="lh-1 bg-primary">This is a long paragraph written to show how the line-height of an element is affected by
+    our
+    utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be
+    customized as needed with our utility API.</p>
+  <p class="lh-sm bg-warning">This is a long paragraph written to show how the line-height of an element is affected by
+    our
+    utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be
+    customized as needed with our utility API.</p>
+  <p class="lh-base bg-body-secondary">This is a long paragraph written to show how the line-height of an element is
+    affected by our
+    utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be
+    customized as needed with our utility API.</p>
+  <p class="lh-lg  bg-info">This is a long paragraph written to show how the line-height of an element is affected by
+    our
+    utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be
+    customized as needed with our utility API.</p>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> reset color </h2>
+  <p class="text-muted">
+    Muted text with a <a href="#" class="text-reset">reset link</a>.
+  </p>
+  <br>
+  <br>
+  <br>
+
+
+
+  <h2> no reset color </h2>
+  <p class="notext-muted">
+    Muted text with a <a href="#">reset link</a>.
+  </p>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> text decoration </h2>
+  <p class="text-decoration-underline">This text has a line underneath it.</p>
+  <p class="text-decoration-line-through">This text has a line going through it.</p>
+  <a href="#" class="text-decoration-none">This link has its text decoration removed</a>
+  <br>
+  <br>
+  <br>
+
+
+
+
+  <h2> Vertical alignment </h2>
+  <span class="align-baseline bg-info">baseline</span>
+  <span class="align-top bg-warning">top</span>
+  <span class="align-middle bg-primary">middle</span>
+  <span class="align-bottom bg-secondary">bottom</span>
+  <span class="align-text-top bg-success">text-top</span>
+  <span class="align-text-bottom bg-warning">text-bottom</span>
+  <br>
+  <br>
+  <br>
+
+
+  <h2> Vertical alignment table</h2>
+  <table style="height: 100px;">
+    <tbody>
+      <tr>
+        <td class="align-baseline bg-info">baseline</td>
+        <td class="align-top bg-warning">top</td>
+        <td class="align-middle bg-primary ">middle</td>
+        <td class="align-bottom bg-secondary">bottom</td>
+        <td class="align-text-top bg-success">text-top</td>
+        <td class="align-text-bottom bg-warning">text-bottom</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <br>
+
+  <h2> visibility </h2>
+  <div class="visible">visible</div>
+  <div>
+  </div>
+  <div class="visible">visible</div>
+  <br>
+  <br>
+  <br>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

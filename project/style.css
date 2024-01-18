@@ -1,0 +1,29 @@
+.icon {
+    color: rgb(248, 69, 4);
+    background-color: #ebeafb;
+    display: inline-flex;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.card-color {
+    background-color: #253761;
+    color: white;
+}
+
+.bg-main {
+    background-color: #253761;
+}
+
+.paragragh {
+    text-align: justify;
+}
+
+
+.btn{
+
+    text-rendering: auto;
+ 
+
+}

@@ -1,0 +1,44 @@
+h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.position-relative{
+    height: 300px;
+
+}
+
+.position-absolute{
+    height: 50px;
+    width: 50px;
+    color: azure;
+    font-weight: bold;
+}
+
+.sizing
+{
+    height: 100px;
+    background-color: rgb(135, 224, 117);
+}
+
+.d-inline-block{
+    width: 120px;
+     background-color: rgb(53, 134, 240)
+}
+
+.max-width{
+    height: 100px; 
+    background-color: rgba(255,0,0,.1);
+}
+
+.mh-100{
+    width: 200px; 
+    height: 300px;
+     background-color: rgba(235, 198, 32, 0.493);
+}
+
+.mw-100{
+    width: 200px; 
+       
+}

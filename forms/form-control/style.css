@@ -1,0 +1,18 @@
+
+body{
+    direction: ltr;
+}
+h2,h1{
+    text-align: center;
+   
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-check{
+    direction: rtl;
+   margin-right: 300px;
+}

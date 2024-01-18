@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+.align-items-start{
+    background-color: burlywood;
+    height: 100px;
+}
+
+.align-items-center{
+    background-color: rgb(39, 150, 150);
+    height: 100px;
+}
+
+.justify-content-start{
+background-color: chartreuse;
+}
+
+
+.justify-content-center{
+background-color: darksalmon;
+}
+
+.justify-content-end{
+background-color: dimgrey;
+}
+
+.justify-content-around{
+background-color: khaki;
+}
+
+.justify-content-between{
+background-color: darkcyan;
+}
+
+.justify-content-evenly{
+background-color: cornflowerblue;
+}
+

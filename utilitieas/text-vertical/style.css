@@ -1,0 +1,23 @@
+h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text-wrap{
+    font-size: 20px;
+    width: 10rem;
+}
+
+.text-nowrap{
+    font-size: 20px;
+    width: 10rem;
+}
+
+.text-muted{
+    font-size: 20px;
+}
+
+.notext-muted{
+    font-size: 20px;
+}
